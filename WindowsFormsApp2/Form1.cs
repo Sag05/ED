@@ -98,5 +98,11 @@ namespace WindowsFormsApp2
 
             Output.Text = EC;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Input.Text = "";
+            Output.Text = "";
+        }
     }
 }
