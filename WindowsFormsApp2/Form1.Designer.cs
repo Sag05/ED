@@ -35,8 +35,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Keybox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.ChangeKey = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input
@@ -88,7 +89,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 211);
+            this.label2.Location = new System.Drawing.Point(47, 207);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 9;
@@ -104,29 +105,41 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // Keybox
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 418);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 11;
+            this.Keybox.Location = new System.Drawing.Point(47, 418);
+            this.Keybox.Name = "Keybox";
+            this.Keybox.Size = new System.Drawing.Size(100, 20);
+            this.Keybox.TabIndex = 11;
+            this.Keybox.Text = "#113763  ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 387);
+            this.label3.Location = new System.Drawing.Point(47, 402);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 13);
             this.label3.TabIndex = 12;
             this.label3.Text = "Key";
             // 
+            // ChangeKey
+            // 
+            this.ChangeKey.Location = new System.Drawing.Point(153, 418);
+            this.ChangeKey.Name = "ChangeKey";
+            this.ChangeKey.Size = new System.Drawing.Size(75, 23);
+            this.ChangeKey.TabIndex = 13;
+            this.ChangeKey.Text = "Change";
+            this.ChangeKey.UseVisualStyleBackColor = true;
+            this.ChangeKey.Click += new System.EventHandler(this.ChangeKey_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 461);
+            this.Controls.Add(this.ChangeKey);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Keybox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -150,8 +163,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Keybox;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button ChangeKey;
     }
 }
 
