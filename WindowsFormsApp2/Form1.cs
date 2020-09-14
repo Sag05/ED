@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
 
         private void inputBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -104,5 +104,7 @@ namespace WindowsFormsApp2
             Input.Text = "";
             Output.Text = "";
         }
+
+        
     }
 }
