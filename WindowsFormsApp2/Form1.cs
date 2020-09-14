@@ -37,7 +37,7 @@ namespace WindowsFormsApp2
         string E17 = ("+");
         string E18 = ("?");
         string E19 = ("´");
-        string E20 = ("`");
+        string E20 = (">");
         string E21 = ("¨");
         string E22 = ("^");
         string E23 = ("~");
@@ -46,7 +46,7 @@ namespace WindowsFormsApp2
         string E26 = ("_");
         string E27 = ("-");
         string E28 = (":");
-        string E29 = ("§");
+        string E29 = (";");
 
 
 
@@ -174,7 +174,7 @@ namespace WindowsFormsApp2
                 E17 = ("+");
                 E18 = ("?");
                 E19 = ("´");
-                E20 = ("`");
+                E20 = (">");
                 E21 = ("¨");
                 E22 = ("^");
                 E23 = ("~");
@@ -183,11 +183,11 @@ namespace WindowsFormsApp2
                 E26 = ("_");
                 E27 = ("-");
                 E28 = (":");
-                E29 = ("§");
+                E29 = (";");
             }
             if (key == "#793721")
             {
-                E0 = ("§");
+                E0 = (";");
                 E1 = (":");
                 E2 = ("-");
                 E3 = ("_");
@@ -196,7 +196,7 @@ namespace WindowsFormsApp2
                 E6 = ("~");
                 E7 = ("^");
                 E8 = ("¨");
-                E9 = ("`");
+                E9 = (">");
                 E10 = ("´");
                 E11 = ("?");
                 E12 = ("+");
