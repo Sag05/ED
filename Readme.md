@@ -17,3 +17,6 @@ Fixed bugs
 
 V1.2.2
 Fixed ! and ?
+
+V1.3
+Added the key #797891
