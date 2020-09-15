@@ -61,7 +61,7 @@ namespace WindowsFormsApp2
             string EC = Input.Text.ToLower();
 
 
-            EC = EC.Replace("?", "§");
+            EC = EC.Replace("?", "<");
             EC = EC.Replace("!", "½");
             EC = EC.Replace("q", E0);
             EC = EC.Replace("w", E1);
@@ -131,6 +131,8 @@ namespace WindowsFormsApp2
             EC = EC.Replace(E27, "n");
             EC = EC.Replace(E28, "m");
             EC = EC.Replace(E29, " ");
+            EC = EC.Replace("<", "?");
+            EC = EC.Replace("½", "!");
 
             Output.Text = EC;
         }
